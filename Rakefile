@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "bio-qtlHD"
   gem.homepage = "http://github.com/pjotrp/bioruby-qtlHD"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Support for qtlHD}
+  gem.description = %Q{Ruby tools and scripts for QTL mapping, part of the qtlHD project}
   gem.email = "pjotr.public01@thebird.nl"
-  gem.authors = ["Pjotr Prins"]
+  gem.authors = ["Pjotr Prins", "Danny Arends", "Karl Broman"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
