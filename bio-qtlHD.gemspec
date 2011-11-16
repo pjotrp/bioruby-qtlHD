@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{bio-qtlHD}
-  s.version = "0.0.0"
+  s.version = "0.0.1.alpha.1"
 
-  s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Pjotr Prins"]
+  s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
+  s.authors = ["Pjotr Prins", "Danny Arends", "Karl Broman"]
   s.date = %q{2011-11-16}
   s.default_executable = %q{biobio-qtlHD}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Ruby tools and scripts for QTL mapping, part of the qtlHD project}
   s.email = %q{pjotr.public01@thebird.nl}
   s.executables = ["biobio-qtlHD"]
   s.extra_rdoc_files = [
@@ -21,11 +21,13 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
     "VERSION",
     "bin/biobio-qtlHD",
+    "bio-qtlHD.gemspec",
     "lib/bio-qtlHD.rb",
     "test/helper.rb",
     "test/test_bio-qtlHD.rb"
@@ -34,7 +36,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{Support for qtlHD}
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
