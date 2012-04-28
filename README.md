@@ -2,11 +2,17 @@
 
 [![Build Status](https://secure.travis-ci.org/pjotrp/bioruby-qtlHD.png)](http://travis-ci.org/pjotrp/bioruby-qtlHD)
 
-Full description goes here
+This is a Ruby module for accessing R/qtlHD.  R/qtlHD (or qtlHD) is the next
+generation implementation of R/qtl. qtlHD is aimed at QTL analysis of
+high-density, high-throughput data; for example for next generation sequencing
+(NGS) RNA-seq expression QTL (eQTL). For more on R/qtlHD, see
+https://github.com/pjotrp/qtlHD
 
 Note: this software is under active development!
 
 ## Installation
+
+(coming soon)
 
 ```sh
     gem install bio-qtlHD
